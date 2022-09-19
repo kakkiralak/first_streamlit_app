@@ -1,2 +1,4 @@
-#created the main python file
-print("hari")
+Import Streamlit
+
+streamlit.title(My Parents New Healthy Diner')
+
