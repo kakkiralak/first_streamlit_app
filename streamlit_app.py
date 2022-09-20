@@ -20,4 +20,3 @@ streamlit.dataframe(fruits_to_show)
 #lets put a pick list so they can pick the fruit they want to pick
 #streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
-
