@@ -70,7 +70,7 @@ def get_fruit_load_list():
   
 #streamlit.text (my_data_row)
 
-#streamlit.dataframe(my_data_rows)
+streamlit.dataframe(my_data_rows)
 
 #fruit_choices = streamlit.text_input('What fruit would you like to add?','jackfruit')
 
