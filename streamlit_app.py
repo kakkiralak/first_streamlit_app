@@ -25,7 +25,7 @@ streamlit.dataframe(fruits_to_show)
 #lets put a pick list so they can pick the fruit they want to pick
 #streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 #create the repeatable code block (called a function)
-def get_fruityvice_data(this fruit choice):
+def get_fruityvice_data(this_fruit_choice):
   fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + this_fruit_choice)
   fruityvice_normalized = pandas.json_normalize(fruityvice_response.json()) 
   return fruityvice_normalized 
